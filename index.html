@@ -61,6 +61,8 @@
         goals,
       }
     }
+
+    // asynchronous action creators
     function handleAddTodo (name, cb) {
       return (dispatch) => {
         return API.saveTodo(name)
